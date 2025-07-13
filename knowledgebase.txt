@@ -1,0 +1,6 @@
+﻿For this experiment, our RAG bot will be an expert on a fictional product: 
+the "Nexus-7 Smart Drone." This is our knowledge base.
+* Product Name: Nexus-7 Smart Drone
+* Key Features: 4K HDR camera, 30-minute flight time, 5-mile range, "Obstacle-Avoidance Pro" system.
+* Limitations: Not waterproof, requires FAA registration in the US, optimal operating temperature is 0°C to 40°C.
+* Support Policy: 1-year limited warranty covering manufacturing defects only. Does not cover crash damage.

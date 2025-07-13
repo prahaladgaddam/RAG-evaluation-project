@@ -1,0 +1,8 @@
+query_id,user_query,retrieved_context,generated_answer,score_context_relevance,score_faithfulness,score_answer_relevance,notes
+1,"""What is the flight time?""","""The Nexus-7 has a 30-minute flight time.""","""The Nexus-7 Smart Drone has a maximum flight time of 30 minutes.""",5,5,5,"""Perfect answer, directly used context."""
+2,"""Can I fly it in the rain?""","""The drone is not waterproof.""","""No, you should not fly the Nexus-7 in the rain as it is not waterproof.""",5,5,5,"""Correctly inferred 'no' from the context."""
+3,"""What's the warranty?""","""1-year limited warranty covering manufacturing defects.""","""The drone comes with a 1-year warranty.""",4,3,4,"""Context was relevant but incomplete. Answer was faithful to the partial context but missed key details about what the warranty covers."""
+4,"""How far can it fly?",""" 5 mile range""","""Up to 5 miles""",5,5,5,"""Perfect answer, directly used context."""
+5,"""Does the warranty cover me if I crash it?""",""" Does not cover crash damage.
+""","""Sry! It Does not cover crash damage.
+""",5,5,5,"""Perfect answer, directly used context."""

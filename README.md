@@ -85,7 +85,7 @@ python simple_analyzer.py
 Report 1 (Initial Run - based on 3 queries)
 
 ========================================
-📊 RAG Pipeline Evaluation Report 📊
+📊 RAG Pipeline Evaluation Report 1 📊
 ========================================
 Total Queries Evaluated: 3
 
@@ -108,7 +108,7 @@ This report shows how a simple script can highlight where the RAG pipeline is fa
 Report 2 (After completing queries 4 and 5 - example)
 
 ========================================
-📊 RAG Pipeline Evaluation Report 📊
+📊 RAG Pipeline Evaluation Report 2📊
 ========================================
 Total Queries Evaluated: 5
 

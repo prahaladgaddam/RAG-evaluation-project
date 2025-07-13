@@ -1,42 +1,38 @@
 RAG Pipeline Evaluation Experiment
-This repository contains a simple, practical guide and code to simulate and evaluate a Retrieval-Augmented Generation (RAG) pipeline. It demonstrates a manual evaluation process and provides a Python script to analyze the performance, highlighting key metrics like context relevance, answer faithfulness, and answer relevance.
+This repository contains a simple, practical guide and code to simulate and evaluate a Retrieval-Augmented Generation (RAG) pipeline. 
+
+It demonstrates a manual evaluation process and provides a Python script to analyze the performance, highlighting key metrics like context relevance, answer faithfulness, and answer relevance.
 
 🚀 Experiment Overview
-The experiment simulates a RAG bot acting as an expert on a fictional "Nexus-7 Smart Drone". You, as the evaluator, will manually:
+The experiment simulates a RAG bot acting as an expert on a fictional "Nexus-7 Smart Drone". 
+
+and You, as the evaluator, will manually:
 
 Retrieve relevant information from the knowledge base for given queries.
-
 Generate an answer based on the retrieved information.
-
 Score the performance of the retrieval and generation based on defined metrics.
-
 A Python script then aggregates these scores into a performance report.
-
 
 
 📊 Evaluation Metrics
 The evaluation focuses on three key metrics, scored from 1 to 5:
 
 Context Relevance: How well the retrieved information matches the query.
-
 Answer Faithfulness: Whether the generated answer only uses information from the retrieved context, indicating an "anti-hallucination metric".
-
 Answer Relevance: How well the final answer addresses the user's problem.
-
 
 
 📁 Files in this Repository
 
 evaluation_template.csv: The spreadsheet where you will log and score the RAG bot's performance.
-
 simple_analyzer.py: A Python script to calculate average scores and generate a performance report from the CSV data.
-
 knowledgebase: Fictional Product Info
 
 
 🛠️ How to Run the Experiment
 Prerequisites
 Python 3.x installed.
+
 
 Steps
 Ensure evaluation_template.csv and simple_analyzer.py are in the same directory.
@@ -102,7 +98,8 @@ Total Queries Evaluated: 3
   🔴 Low Faithfulness Alert! Review queries: 3
      These answers may be hallucinating or misrepresenting the context.
 
-========================================
+===============
+
 This report shows how a simple script can highlight where the RAG pipeline is failing.
 
 
@@ -124,5 +121,6 @@ Total Queries Evaluated: 5
   🔴 Low Faithfulness Alert! Review queries: 3
      These answers may be hallucinating or misrepresenting the context.
 
-========================================
+==============
+
 This report shows how a simple script can highlight where the RAG pipeline is failing.

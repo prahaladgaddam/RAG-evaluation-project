@@ -28,6 +28,15 @@ evaluation_template.csv: The spreadsheet where you will log and score the RAG bo
 simple_analyzer.py: A Python script to calculate average scores and generate a performance report from the CSV data.
 knowledgebase: Fictional Product Info
 
+Images:
+
+![evaluation template CSV_allQueries](https://github.com/user-attachments/assets/0f6954c4-3ea8-4306-8273-f154e6e18b84)
+
+![knowledgebase](https://github.com/user-attachments/assets/15411f1e-a873-4ea7-a183-244e4f0eca6b)
+
+![Code](https://github.com/user-attachments/assets/76fa2c19-0af6-4a29-8d82-12e091e4221a)
+
+
 
 🛠️ How to Run the Experiment
 Prerequisites
@@ -39,6 +48,8 @@ Ensure evaluation_template.csv and simple_analyzer.py are in the same directory.
 
 Initial Run (Pre-filled Data):
 Open your terminal or command prompt, navigate to the directory, and run:
+![evaluation_template1](https://github.com/user-attachments/assets/a484b88a-cb4f-40a8-99c0-f629b311e8fe)
+
 
 
 Bash
@@ -49,6 +60,7 @@ python simple_analyzer.py
 
 Manual Evaluation:
 Open evaluation_template.csv. For query_id 4 and 5, manually:
+![evaluation template CSV_allQueries](https://github.com/user-attachments/assets/9b3125c1-ad3d-4b3f-82de-e031222c1eee)
 
 Read the user_query.
 
@@ -72,6 +84,7 @@ Support Policy: 1-year limited warranty covering manufacturing defects only. Doe
 
 
 Second Run (After Manual Evaluation):
+
 Save the evaluation_template.csv file. Run the Python script again:
 
 Bash
@@ -83,6 +96,8 @@ python simple_analyzer.py
 
 📈 Example Results
 Report 1 (Initial Run - based on 3 queries)
+![Report1](https://github.com/user-attachments/assets/dc883778-6f2b-4dd3-a7f2-9a1bdeffabe5)
+
 
 ========================================
 📊 RAG Pipeline Evaluation Report 1 📊
@@ -106,6 +121,7 @@ This report shows how a simple script can highlight where the RAG pipeline is fa
 
 
 Report 2 (After completing queries 4 and 5 - example)
+![report2](https://github.com/user-attachments/assets/00eecf36-542a-4c95-aea8-42810594f626)
 
 ========================================
 📊 RAG Pipeline Evaluation Report 2📊

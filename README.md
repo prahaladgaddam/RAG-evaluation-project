@@ -30,11 +30,14 @@ knowledgebase: Fictional Product Info
 
 Images:
 
-![evaluation template CSV_allQueries](https://github.com/user-attachments/assets/0f6954c4-3ea8-4306-8273-f154e6e18b84)
+Evaluation Template
+1. ![evaluation template CSV_allQueries](https://github.com/user-attachments/assets/0f6954c4-3ea8-4306-8273-f154e6e18b84)
 
-![knowledgebase](https://github.com/user-attachments/assets/15411f1e-a873-4ea7-a183-244e4f0eca6b)
+Knowledge Base
+2. ![knowledgebase](https://github.com/user-attachments/assets/15411f1e-a873-4ea7-a183-244e4f0eca6b)
 
-![Code](https://github.com/user-attachments/assets/76fa2c19-0af6-4a29-8d82-12e091e4221a)
+Code Sample
+3. ![Code](https://github.com/user-attachments/assets/76fa2c19-0af6-4a29-8d82-12e091e4221a)
 
 
 

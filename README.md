@@ -4,9 +4,7 @@ This repository contains a simple, practical guide and code to simulate and eval
 It demonstrates a manual evaluation process and provides a Python script to analyze the performance, highlighting key metrics like context relevance, answer faithfulness, and answer relevance.
 
 🚀 Experiment Overview
-The experiment simulates a RAG bot acting as an expert on a fictional "Nexus-7 Smart Drone". 
-
-and You, as the evaluator, will manually:
+The experiment simulates a RAG bot acting as an expert on a fictional "Nexus-7 Smart Drone". and as an evaluator, we will manually:
 
 Retrieve relevant information from the knowledge base for given queries.
 Generate an answer based on the retrieved information.
@@ -33,12 +31,13 @@ Images:
 Evaluation Template
  ![evaluation template CSV_allQueries](https://github.com/user-attachments/assets/0f6954c4-3ea8-4306-8273-f154e6e18b84)
 
+
 Knowledge Base
  ![knowledgebase](https://github.com/user-attachments/assets/15411f1e-a873-4ea7-a183-244e4f0eca6b)
 
+
 Code Sample
  ![Code](https://github.com/user-attachments/assets/76fa2c19-0af6-4a29-8d82-12e091e4221a)
-
 
 
 🛠️ How to Run the Experiment
@@ -58,7 +57,6 @@ Open your terminal or command prompt, navigate to the directory, and run:
 Bash
 
 python simple_analyzer.py
-
 (You will see a report based on the initial 3 pre-filled queries, noting a "Low Faithfulness Alert" for Query #3).
 
 Manual Evaluation:
@@ -66,34 +64,18 @@ Open evaluation_template.csv. For query_id 4 and 5, manually:
 ![evaluation template CSV_allQueries](https://github.com/user-attachments/assets/9b3125c1-ad3d-4b3f-82de-e031222c1eee)
 
 Read the user_query.
-
 Refer to the "Knowledge Base" (from RAG experiment.txt if available, or the details below) to find retrieved_context.
-
 Write a generated_answer.
 
 
 Score 
-
 score_context_relevance, score_faithfulness, and score_answer_relevance (1-5).
 
-Nexus-7 Smart Drone Knowledge Base Snippets:
-
-Key Features: 4K HDR camera, 30-minute flight time, 5-mile range, "Obstacle-Avoidance Pro" system.
-
-Limitations: Not waterproof, requires FAA registration in the US, optimal operating temperature is 0°C to 40°C.
-
-Support Policy: 1-year limited warranty covering manufacturing defects only. Does not cover crash damage.
-
-
-
 Second Run (After Manual Evaluation):
-
 Save the evaluation_template.csv file. Run the Python script again:
 
 Bash
-
 python simple_analyzer.py
-
 (Observe the updated report reflecting your new data).
 
 
